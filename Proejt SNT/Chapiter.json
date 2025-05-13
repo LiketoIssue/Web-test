@@ -1,5 +1,5 @@
 {
-    "Français" :[
+    "Français" :[[
                 "Poésie",
                 "Théatre",
                 "Livre",
@@ -10,7 +10,11 @@
                 "zefzeraezr",
                 "qgdQSDXEE",
                 "qsfdqqqqq"
-            ],
+            ],[
+                "document 1",
+                "document 2",
+                "document 3"
+            ]],
     "Anglais" :[
                 "Prétérit",
                 "Present perfect",
