@@ -56,10 +56,16 @@ function new_panel(Panel){
         default:
             break;
     }
+    var request = new XMLHttpRequest();
+    var URLrequest = "https://github.com/LiketoIssue/Web-test/blob/main/Proejt%20SNT/Chapiter.json";
+    request.open("GET", URLrequest);
+    request.responseType = "json";
+    request.send();
+
     let File;
-    File = "ok";
-    for(let i = 0 ; i < 5 ; i++){
-    document.getElementById("FileArea").innerHTML = "<button>"+File+"</button>";}
+    request.onload = function(){File = request.response;}
+    
+    document.getElementById("FileArea").innerHTML = "<button>"+File[Type][0]+"</button>";
 }
 
 function Mreturn(){
