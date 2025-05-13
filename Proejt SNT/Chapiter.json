@@ -3,5 +3,60 @@
                 "Poésie",
                 "Théatre",
                 "Livre"
+            ],
+    "Anglais" :[
+                "Prétérit",
+                "Present perfect",
+                "Vocabulaire"
+            ],
+    "Espagnol" :[
+                "Imparfait",
+                "Passé simple",
+                "Vocabulaire"
+            ],
+    "Allemand" :[
+                "-",
+                "-",
+                "-"
+            ],
+    "Math" :[
+                "Equation",
+                "Vecteur",
+                "Coordonnée"
+            ],
+    "Physique" :[
+                "Inertie",
+                "Fission nucléaire",
+                "Electricité"
+            ],
+    "Histoire" :[
+                "La découverte du nouveau monde",
+                "L'empire bizantin",
+                "La réforme protestante"
+            ],
+    "Géographie" :[
+                "Les métrople",
+                "Les catastrophe naturelle",
+                "Les pays ultramarin"
+            ],
+    "Education moral et civique" :[
+                "Vivre en société",
+                "La navette parlementaire",
+                "Le parlement"
+            ],
+    "Sience economique et sociale" :[
+                "Le marché",
+                "La socialisation",
+                "Les sciences sociale"
+            ],
+    "Sience numérique et technologique" :[
+                "Le web",
+                "L'informatique embarqué",
+                "La photographie numérique"
+            ],
+    "Sience de la vie et de la terre" :[
+                "La reproduction",
+                "La biodiversité",
+                "L'ADN"
             ]
 }
