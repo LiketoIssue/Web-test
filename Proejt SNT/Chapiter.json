@@ -10,7 +10,8 @@
       "C'est pour jeudi"
     ],
     "content": [
-      "ok"
+      ["ok", "lets go", "yes"],
+      ["no", "help", "nha"]
     ]
   }
 }
