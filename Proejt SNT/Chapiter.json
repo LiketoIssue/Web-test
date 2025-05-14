@@ -1,17 +1,50 @@
 {
   "Français": {
-    "chapitre": [
-      "Poésie",
-      "Théâtre",
-      "Livre",
-      "Le Bourgeois gentilhomme",
-      "Les Impatientes",
-      "C'est que des tests",
-      "C'est pour jeudi"
-    ],
-    "content": [
-      ["ok","lets go","https://raw.githubusercontent.com/LiketoIssue/Web-test/main/Proejt%20SNT/icon-html.jpg"],
-      ["no", "help", "nha"]
-    ]
+    "chapitre": [],
+    "content": []
+  },
+  "Anglais": {
+    "chapitre": [],
+    "content": []
+  },
+  "Espagnol": {
+    "chapitre": [],
+    "content": []
+  },
+  "Allemand": {
+    "chapitre": [],
+    "content": []
+  },
+  "Histoire": {
+    "chapitre": [],
+    "content": []
+  },
+  "Géographie": {
+    "chapitre": [],
+    "content": []
+  },
+  "Éducation morale et civique": {
+    "chapitre": [],
+    "content": []
+  },
+  "Science économique et sociale": {
+    "chapitre": [],
+    "content": []
+  },
+  "Math": {
+    "chapitre": [],
+    "content": []
+  },
+  "Physique": {
+    "chapitre": [],
+    "content": []
+  },
+  "Science numérique et technologique": {
+    "chapitre": [],
+    "content": []
+  },
+  "Science de la vie et de la Terre": {
+    "chapitre": [],
+    "content": []
   }
 }
