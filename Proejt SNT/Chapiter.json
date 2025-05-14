@@ -1,19 +1,16 @@
 {
-    "Français" :[
-                    "chapiter":[
-                        "Poésie",
-                        "Théatre",
-                        "Livre",
-                        "Le bourgeois gentillhome",
-                        "Les impatiente",
-                        "C'est que des testes",
-                        "C'est pour jeudi",
-                        "zefzeraezr",
-                        "qgdQSDXEE",
-                        "qsfdqqqqq"
-                    ],
-                    "content":[
-                       "ok" 
-                    ],
-                ]
+  "Français": {
+    "chapitre": [
+      "Poésie",
+      "Théâtre",
+      "Livre",
+      "Le Bourgeois gentilhomme",
+      "Les Impatientes",
+      "C'est que des tests",
+      "C'est pour jeudi"
+    ],
+    "content": [
+      "ok"
+    ]
+  }
 }
