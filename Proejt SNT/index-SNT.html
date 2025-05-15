@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SNT</title>
+        <link rel="stylesheet " href="Style-SNT.css">
+    </head>
+    <body>
+        <div id="Menu">
+            <div id="FirstMenu">
+                <p class="TitleM"><ins><strong>Langue</strong></ins></p>
+                <button class="Button FR" onclick="new_panel('Français')">Français</button>
+                <button class="Button AG" onclick="new_panel('Anglais')">Anglais</button>
+                <button class="Button ESP" onclick="new_panel('Espagnol')">Espagnol</button>
+                <button class="Button ALM" onclick="new_panel('Allemand')">Allemand</button>
+            </div>
+            <div id="SecondMenu">
+                <p class="TitleM"><ins><strong>Sociétale</strong></ins></p>
+                <button class="Button HIT" onclick="new_panel('Histoire')">Histoire</button>
+                <button class="Button GEO" onclick="new_panel('Géographie')">Géographie</button>
+                <button class="Button EMC" onclick="new_panel('Education moral et civique')">EMC</button>
+                <button class="Button SES" onclick="new_panel('Sience economique et sociale')">SES</button>
+            </div>
+            <div id="ThreethMenu">
+                <p class="TitleM"><ins><strong>Scientifique</strong></ins></p>
+                <button class="Button MAT" onclick="new_panel('Math')">Maths</button>
+                <button class="Button PH" onclick="new_panel('Physique')">Physique</button>
+                <button class="Button SNT" onclick="new_panel('Sience numérique et technologique')">SNT</button>
+                <button class="Button SVT" onclick="new_panel('Sience de la vie et de la terre')">SVT</button>
+            </div>
+        </div>
+        <div id="COM">
+            <button class="CButton" onclick="AddCt()">Rajouter du contenue</button>
+        </div>
+        <div id="AddContent">
+            <button class="BBack" onclick="Mback('AddContent')">Menu</button>
+            <div id="SLM">
+                <p class="TitleADD"><ins><strong>Selectioner une matière</strong></ins></p>
+                <input type="radio" name="MAT" value="FR" checked><label for="FR">Français</label><br>
+                <input type="radio" name="MAT" value="AN"><label for="AN">Anglais</label><br>
+                <input type="radio" name="MAT" value="ES"><label for="ES">Espagnol</label><br>
+                <input type="radio" name="MAT" value="AL"><label for="AL">Allemand</label><br>
+                <input type="radio" name="MAT" value="HI"><label for="HI">Histoire</label><br>
+                <input type="radio" name="MAT" value="GO"><label for="GO">Géographie</label><br>
+                <input type="radio" name="MAT" value="EM"><label for="EM">EMC</label><br>
+                <input type="radio" name="MAT" value="SE"><label for="SE">SES</label><br>
+                <input type="radio" name="MAT" value="MA"><label for="MA">Maths</label><br>
+                <input type="radio" name="MAT" value="PH"><label for="PH">Physique</label><br>
+                <input type="radio" name="MAT" value="SN"><label for="SN">SNT</label><br>
+                <input type="radio" name="MAT" value="SV"><label for="SV">SVT</label>
+            </div>
+        </div>
+
+        <div id="SherchPanel">
+            <p id="NameSPanel">nom de la matiere</p>
+            <div id="FileArea">
+                <button class="BBack" onclick="Mback('SherchPanel')">Menu</button>
+                <p class="TitleM"><ins><strong>Séquence</strong></ins></p>
+            </div>
+
+            <div id="CHC">
+                <button class="BBack" onclick="Mreturn()">Retour</button>
+                <p class="TitleM"><ins><strong>Cour</strong></ins></p>
+            </div>
+        </div>
+
+    </body>
+    <script src="Script-SNT.js"></script>
+</html>

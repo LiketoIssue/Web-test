@@ -1,0 +1,122 @@
+.Button{
+    border: 5px black solid;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top:2%;
+    padding: 5px;
+    width: 90%;
+    font-size: 200%;
+}
+.TitleM{
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;   
+    width: 90%;
+    font-size: 60px;
+}
+#Menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#FirstMenu, #SecondMenu, #ThreethMenu{
+    margin-top:3%;
+    margin-bottom:3%;
+    width:33%;
+}
+
+#SherchPanel{
+    width: 100%;
+}
+
+#NameSPanel{
+    margin:auto;
+    font-family: sans-serif;
+    width:auto;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+}
+
+.FR { border-color: #00ff6c; }     /* Français */
+.AG { border-color: #8700ff; }     /* Anglais */
+.ESP { border-color: #ffb600; }    /* Espagnol */
+.ALM { border-color: #317941; }    /* Allemand */
+.HIT { border-color: #00b2ff; }    /* Histoire */
+.GEO { border-color: #0008ff; }    /* Géographie */
+.EMC { border-color: #885c09; }    /* Éducation morale et civique */
+.SES { border-color: #606bca; }    /* Science économique et sociale */
+.MAT { border-color: #ff0f00; }    /* Math */
+.PH  { border-color: #b2ff00; }    /* Physique */
+.SNT { border-color: #60cabd; }    /* Science numérique et technologique */
+.SVT { border-color: #7fff68; }    /* Science de la vie et de la Terre */
+
+.Bchapiter{
+    border: 5px black solid;
+    display: block;
+    margin: auto;
+    margin-top:2%;
+    padding: 5px;
+    width: 30%;
+    font-size: 200%;
+}
+
+#FileArea{
+    width:100%;
+    height:50%;
+    display: block;
+    flex-direction: column;
+}
+
+.BBack{
+    background-color: #000000;
+    font-size:40px;
+    border: 3px #000000 ridge;
+    margin-top:10px;
+    color:#FFFFFF;
+}
+
+.TXTcour{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.CButton{
+    border: 5px black solid;
+    border-radius: 10px;
+    display: block;
+    padding: 5px;
+    width: auto;
+    font-size: 200%;
+}
+#COM{
+    background-color: #a7a7a7;
+    position: relative;
+    top:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    height: 20%;
+}
+.TitleADD{
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;   
+    font-size: 40px;
+}
+#SLM{
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: auto;
+    width: 30%;
+    background-color: red;
+}
+#AddContent{
+    margin:auto;
+}
+#SherchPanel, #CHC, #AddContent{
+    display:none;
+}
