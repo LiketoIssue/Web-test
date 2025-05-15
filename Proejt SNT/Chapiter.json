@@ -1,7 +1,17 @@
 {
   "Français": {
-    "chapitre": [],
-    "content": []
+    "chapitre": [
+      "Récit et roman",
+      "La poésie",
+      "La littérature d’idées",
+      "Le théâtre"
+    ],
+    "content": [
+      ["Boule de suif", "incipit de germinal", "incinpit de l’assommoir"],
+      ["Poème sur la mort de Léopoldine", "Étude poème 'heureux qui comme Ulysse'", "Étude poème 'les amours'"],
+      ["Discoure sur la pauvrette d’Hugo Camus", "Discoure contre la bombe d’Hiroshima d’Hugo Camus", "Les jouets d'Ernaux"],
+      ["Le bourgeois gentilhomme"]
+    ]
   },
   "Anglais": {
     "chapitre": [],
